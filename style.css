@@ -1,1 +1,126 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+/*Body background and all borders: #eee
+Newspaper background: white
+Newspaper box-shadow: #ddd
+Front-page article text: #dd3232
+Navigation links: #777
+All other text (headers, body, etc.): default (black) */
+
+.newspaper-container {
+    background-color: #eee;
+    width: 700px;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+header h1{
+    font-family: "Abril Fatface";
+    margin: 0%;
+}
+
+.date {
+    font-size: .75em;
+    font-family: "Source Sans Pro";
+}
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: #eee;
+    position: sticky;
+    top: 0em;
+}
+
+nav ul {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: .5em;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-family: "Source Sans Pro";
+    text-decoration: none;
+    padding: .25em;
+}
+
+nav a {
+    color: #777;
+}
+
+h2 {
+    font-family: Roboto Slab;
+    margin-top: .75em;
+    margin-bottom: .25em;
+    margin-left: 0em;
+    margin-right: 0em;
+}
+
+h5 {
+    font-family: Roboto Slab;
+    font-size: .75em;
+    color: red;
+    margin-top: .75em;
+    margin-bottom: 1.75em;
+    margin-left: 0em;
+    margin-right: 0em;
+}
+
+main > img {
+    width: 100%;
+}
+
+main > p {
+    text-align: justify;
+    font-family: Source Sans Pro;
+    padding: 1.5em .5em;
+    margin: 0em;
+    border-bottom: 1px solid black;
+}
+
+.more-articles {
+    display: inline-flex;
+}
+
+section {
+    padding: 0em 1em;
+}
+
+section > img {
+    width: 100%;
+}
+
+section > h4 {
+    font-family: Roboto Slab;
+}
+
+section > p {
+    text-align: justify;
+    padding: 0em .5em;
+}
+
+footer {
+    background-color: #eee;
+}
+
+footer ul {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: .5em;
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+    font-family: "Source Sans Pro";
+    text-decoration: none;
+    padding: .25em;
+}
+
+footer a {
+    color: #777;
+}
